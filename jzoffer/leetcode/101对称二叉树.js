@@ -8,4 +8,5 @@ var isSymmetric = function (root) {
     return check(root, root);
   };
   
+  
 //   链接：https://leetcode-cn.com/problems/symmetric-tree/solution/san-ju-hua-jie-jue-dui-cheng-er-cha-shu-qw7o5/
