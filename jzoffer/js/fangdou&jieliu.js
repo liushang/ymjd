@@ -1,16 +1,10 @@
 function fangdou(fn, time) {
   let timer = null
   return (...args) => {
-    if (timer) {
       clearTimeout(timer)
       timer = setTimeout(() => {
         fn(...args)
       }, time)
-    } else {
-      timer = setTimeout(() => {
-        fn(...args)
-      }, time)
-    }
   }
 }
 const test = (a) => {
@@ -22,17 +16,17 @@ const fangtest = fangdou(test, 2000)
 // fangtest(7)
 // fangtest(8)
 
-function jieliu(fn, time) {
-  let timer = null
-  return (...args) => {
-    if (!timer) {
-      fn(...args)
-      timer = setTimeout(() => {
-        timer = null
-      }, time)
+function throttle(func, wait) {
+  let previous = 0
+  return (...args) {
+    let now = +new Date()
+    if (wait < now - previous) {
+      previous = now
+      func(...args)
     }
   }
 }
+
 const jie = jieliu(test, 3000)
 jie(1)
 jie(2)
