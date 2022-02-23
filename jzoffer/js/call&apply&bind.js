@@ -1,4 +1,4 @@
-Function.prototype.bind = (context, ...args) => {
+Function.prototype.call = (context, ...args) => {
   context = typeof context === 'object' ? context : window
   const fn = Symbol()
   context[fn] = this

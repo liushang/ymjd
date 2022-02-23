@@ -1,0 +1,9 @@
+{
+    "engines": {
+        "node": ">=10",
+        "pnpm": ">=3"
+    },
+    "dependencies": {
+        "axios": "^0.26.0"
+    }
+}
