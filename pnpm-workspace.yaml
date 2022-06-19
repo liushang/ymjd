@@ -1,9 +1,9 @@
 packages:
   # all submodule
-  - 'projects:**'
+  - 'project:**'
   # base lib and utils
   - 'libs/**'
   # all templates
-  - 'templates/**'
+  - 'template/**'
   # all utils
-  - 'utils/**'
+  - 'util/**'
