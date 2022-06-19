@@ -1,6 +1,6 @@
 packages:
   # all submodule
-  - 'project:**'
+  - 'project/**'
   # base lib and utils
   - 'libs/**'
   # all templates
