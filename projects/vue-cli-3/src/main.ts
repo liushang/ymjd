@@ -1,6 +1,9 @@
-import { createApp } from "vue";
+import { createApp, h } from "vue";
 import App from "./App.vue";
 // import './registerServiceWorker'
 import router from "./router";
-console.log(router);
-createApp(App).use(router).mount("#app");
+console.log(12312);
+const app = createApp({
+  render: () => h(App),
+});
+app.use(router).mount("#app");

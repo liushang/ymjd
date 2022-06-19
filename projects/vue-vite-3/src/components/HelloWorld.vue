@@ -22,14 +22,15 @@
   </p>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref } from 'vue'
 
-defineProps({
+const { msg } = defineProps({
   msg: String
 })
-
+console.log(msg)
 const count = ref(0)
+
 </script>
 
 <style scoped>
