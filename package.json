@@ -3,6 +3,7 @@
         "node": ">=10",
         "pnpm": ">=3"
     },
-    "dependencies": {
+    "devDependencies": {
+        "@changesets/cli": "^2.23.0"
     }
 }

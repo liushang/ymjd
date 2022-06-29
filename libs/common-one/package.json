@@ -1,0 +1,29 @@
+{
+  "name": "common-one",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "es/index.js",
+  "scripts": {
+    "build:es": "rimraf es && tsc --module esnext --outDir \"./es\"",
+    "build:local:es": "rimraf es && tsc --module esnext --outDir \"./es\" --declarationMap true",
+    "build:cjs": "rimraf dist && tsc",
+    "build:local:cjs": "rimraf dist && tsc --declarationMap true",
+    "build": "run-p build:cjs build:es",
+    "build:local": "run-p build:local:cjs build:local:es",
+    "fix": "prettier -c --write \"src/**/*.{ts,tsx}\""
+  },
+  "files": [
+    "dist",
+    "es"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^7.32.0",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.4.0"
+  },
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
