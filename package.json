@@ -1,4 +1,7 @@
 {
+    "scripts": {
+        "changeset": "changeset"
+    },
     "engines": {
         "node": ">=10",
         "pnpm": ">=3"

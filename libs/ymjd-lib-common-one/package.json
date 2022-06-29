@@ -1,6 +1,6 @@
 {
-  "name": "common-one",
-  "version": "1.0.0",
+  "name": "ymjd-lib-common-one",
+  "version": "3.0.0",
   "main": "dist/index.js",
   "module": "es/index.js",
   "scripts": {
