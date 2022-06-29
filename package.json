@@ -1,4 +1,6 @@
 {
+    "name": "ymjd",
+    "version": "1.0.0",
     "scripts": {
         "changeset": "changeset",
         "build:deps": "bash ./rider/pre-deps.sh --force",
