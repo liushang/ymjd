@@ -1,0 +1,10 @@
+[35mvct-3:build[0m: cache hit, replaying output [2mcb054a232dbbba1f[0m
+[35mvct-3:build: [0m
+[35mvct-3:build: [0m> vct-3@0.1.0 build /Users/lzy/Downloads/code/ymjd/project/vct-3
+[35mvct-3:build: [0m> vue-cli-service build
+[35mvct-3:build: [0m
+[35mvct-3:build: [0mAll browser targets in the browserslist configuration have supported ES module.
+[35mvct-3:build: [0mTherefore we don't build two separate bundles for differential loading.
+[35mvct-3:build: [0m
+[35mvct-3:build: [0m
+[35mvct-3:build: [0m-  Building for production...

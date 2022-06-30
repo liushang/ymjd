@@ -1,14 +1,8 @@
-/**
- * auto identify all private sub-package,
- * then add to changeset config.json ignore list script
- * @use pnpm push
- */
-
 import fs from 'fs-extra'
 import path from 'path'
 import execa from 'execa'
 
-import { getWorkspace } from './getWorkspace'
+import { getWorkspace } from '../rider/getWorkspace'
 
 const changesetConfigPath = path.resolve(__dirname, '../.changeset/config.json')
 

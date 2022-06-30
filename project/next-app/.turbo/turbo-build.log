@@ -1,0 +1,15 @@
+[34mnext-app:build[0m: cache hit, replaying output [2m8e09809bcf8893e1[0m
+[34mnext-app:build: [0m
+[34mnext-app:build: [0m> next-app@0.1.0 build /Users/lzy/Downloads/code/ymjd/project/next-app
+[34mnext-app:build: [0m> next build
+[34mnext-app:build: [0m
+[34mnext-app:build: [0minfo  - Checking validity of types...
+[34mnext-app:build: [0mIt looks like you're trying to use TypeScript but do not have the required package(s) installed.
+[34mnext-app:build: [0m
+[34mnext-app:build: [0mPlease install @types/react by running:
+[34mnext-app:build: [0m
+[34mnext-app:build: [0m	yarn add --dev @types/react
+[34mnext-app:build: [0m
+[34mnext-app:build: [0mIf you are not trying to use TypeScript, please remove the tsconfig.json file from your package root (and any TypeScript files in your pages directory).
+[34mnext-app:build: [0m
+[34mnext-app:build: [0m ELIFECYCLE  Command failed with exit code 1.
