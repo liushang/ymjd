@@ -12,6 +12,13 @@ jobs:
     name: Release
     runs-on: ubuntu-latest
     steps:
+      - name: Creating .npmrc
+        run: |
+          cat << EOF > "$HOME/.npmrc"
+            //registry.npmjs.org/:_authToken=$NPM_TOKEN
+          EOF
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Checkout Repo
         uses: actions/checkout@v2
 
