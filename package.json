@@ -17,6 +17,9 @@
     "bin": {
         "bsno": "./scripts/bsno.js"
     },
+    "publishConfig": {
+        "access": "public"
+    },
     "devDependencies": {
         "@changesets/cli": "^2.23.0",
         "@manypkg/get-packages": "^1.1.3",
