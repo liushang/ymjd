@@ -1,5 +1,11 @@
 # common-one
 
+## 6.0.1
+
+### Patch Changes
+
+- 82f8d01: privite
+
 ## 6.0.0
 
 ### Major Changes
