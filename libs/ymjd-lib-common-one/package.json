@@ -3,6 +3,7 @@
   "version": "5.0.0",
   "main": "dist/index.js",
   "module": "es/index.js",
+  "private": true,
   "scripts": {
     "build:es": "rimraf es && tsc --module esnext --outDir \"./es\"",
     "build:local:es": "rimraf es && tsc --module esnext --outDir \"./es\" --declarationMap true",

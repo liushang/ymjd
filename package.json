@@ -9,7 +9,7 @@
         "version-packages": "changeset version",
         "release": "pnpm build:deps && pnpm release:only",
         "release:only": "changeset publish",
-        "tbuild": "turbo run build --scope=ymjd-lib-common-one"
+        "tbuild": "turbo run build --filter=ymjd-lib-common-one"
     },
     "engines": {
         "node": ">=10",
@@ -17,36 +17,6 @@
     },
     "bin": {
         "bsno": "./scripts/bsno.js"
-    },
-    "turbo": {
-        "baseBranch": "origin/main",
-        "pipeline": {
-          "build": {
-            "dependsOn": [
-              "^build"
-            ],
-            "outputs": [
-              "dist/**",
-              "es/**",
-              "build/**"
-            ]
-          },
-          "build:uat": {
-            "dependsOn": [
-              "build"
-            ]
-          },
-          "build:pre": {
-            "dependsOn": [
-              "build"
-            ]
-          },
-          "build:prod": {
-            "dependsOn": [
-              "build"
-            ]
-          }
-        }
     },
     "devDependencies": {
         "@changesets/cli": "^2.23.0",
