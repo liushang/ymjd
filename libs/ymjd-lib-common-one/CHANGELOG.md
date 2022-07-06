@@ -12,10 +12,6 @@
 
 - 7bf5f10: log2
 
-### Patch Changes
-
-- 123
-
 ## 3.0.0
 
 ### Major Changes
