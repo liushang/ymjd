@@ -1,0 +1,25 @@
+[35mvct-3:build[0m: cache hit, replaying output [2md6e9a9f8c4cc6b76[0m
+[35mvct-3:build: [0m
+[35mvct-3:build: [0m> vct-3@0.1.0 build /Users/lzy/Downloads/code/ymjd/project/vct-3
+[35mvct-3:build: [0m> vue-cli-service build
+[35mvct-3:build: [0m
+[35mvct-3:build: [0mAll browser targets in the browserslist configuration have supported ES module.
+[35mvct-3:build: [0mTherefore we don't build two separate bundles for differential loading.
+[35mvct-3:build: [0m
+[35mvct-3:build: [0m
+[35mvct-3:build: [0m-  Building for production...
+[35mvct-3:build: [0m DONE  Compiled successfully in 5170ms下午9:09:07
+[35mvct-3:build: [0m
+[35mvct-3:build: [0m  File                                 Size               Gzipped
+[35mvct-3:build: [0m
+[35mvct-3:build: [0m  dist/js/chunk-vendors.14d722d9.js    98.82 KiB          36.52 KiB
+[35mvct-3:build: [0m  dist/js/app.48182f9a.js              15.60 KiB          9.48 KiB
+[35mvct-3:build: [0m  dist/js/about.7e74800f.js            0.39 KiB           0.30 KiB
+[35mvct-3:build: [0m  dist/css/app.38ba0c03.css            0.42 KiB           0.26 KiB
+[35mvct-3:build: [0m
+[35mvct-3:build: [0m  Images and other types of assets omitted.
+[35mvct-3:build: [0m  Build at: 2022-06-30T13:09:07.616Z - Hash: c2daf8c33aa518ea - Time: 5170ms
+[35mvct-3:build: [0m
+[35mvct-3:build: [0m DONE  Build complete. The dist directory is ready to be deployed.
+[35mvct-3:build: [0m INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html
+[35mvct-3:build: [0m       

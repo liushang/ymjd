@@ -1,0 +1,30 @@
+{
+    "baseBranch": "origin/main",
+    "pipeline": {
+      "build": {
+        "dependsOn": [
+          "^build"
+        ],
+        "outputs": [
+          "dist/**",
+          "es/**",
+          "build/**"
+        ]
+      },
+      "build:uat": {
+        "dependsOn": [
+          "build"
+        ]
+      },
+      "build:pre": {
+        "dependsOn": [
+          "build"
+        ]
+      },
+      "build:prod": {
+        "dependsOn": [
+          "build"
+        ]
+      }
+    }
+}

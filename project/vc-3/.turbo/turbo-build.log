@@ -1,0 +1,37 @@
+[35mvue-cli-3:build[0m: cache hit, replaying output [2m89668c6663171f07[0m
+[35mvue-cli-3:build: [0m
+[35mvue-cli-3:build: [0m> vue-cli-3@0.1.0 build /Users/lzy/Downloads/code/ymjd/project/vc-3
+[35mvue-cli-3:build: [0m> vue-cli-service build
+[35mvue-cli-3:build: [0m
+[35mvue-cli-3:build: [0mAll browser targets in the browserslist configuration have supported ES module.
+[35mvue-cli-3:build: [0mTherefore we don't build two separate bundles for differential loading.
+[35mvue-cli-3:build: [0m
+[35mvue-cli-3:build: [0m
+[35mvue-cli-3:build: [0m-  Building for production...
+[35mvue-cli-3:build: [0m WARNING  Compiled with 1 warning下午9:21:09
+[35mvue-cli-3:build: [0m
+[35mvue-cli-3:build: [0m
+[35mvue-cli-3:build: [0m/Users/lzy/Downloads/code/ymjd/project/vc-3/src/components/HelloWorld.vue
+[35mvue-cli-3:build: [0m  131:1  warning  Unexpected console statement  no-console
+[35mvue-cli-3:build: [0m
+[35mvue-cli-3:build: [0m✖ 1 problem (0 errors, 1 warning)
+[35mvue-cli-3:build: [0m
+[35mvue-cli-3:build: [0m
+[35mvue-cli-3:build: [0mYou may use special comments to disable some warnings.
+[35mvue-cli-3:build: [0mUse // eslint-disable-next-line to ignore the next line.
+[35mvue-cli-3:build: [0mUse /* eslint-disable */ to ignore all warnings in a file.
+[35mvue-cli-3:build: [0m  File                                 Size               Gzipped
+[35mvue-cli-3:build: [0m
+[35mvue-cli-3:build: [0m  dist/js/chunk-vendors.83e3c465.js    104.39 KiB         38.29 KiB
+[35mvue-cli-3:build: [0m  dist/js/app.71d4ac9d.js              16.92 KiB          9.79 KiB
+[35mvue-cli-3:build: [0m  dist/workbox-557dc586.js             14.05 KiB          4.91 KiB
+[35mvue-cli-3:build: [0m  dist/service-worker.js               1.20 KiB           0.76 KiB
+[35mvue-cli-3:build: [0m  dist/js/about.ceb25611.js            0.40 KiB           0.30 KiB
+[35mvue-cli-3:build: [0m  dist/css/app.ce333436.css            0.42 KiB           0.26 KiB
+[35mvue-cli-3:build: [0m
+[35mvue-cli-3:build: [0m  Images and other types of assets omitted.
+[35mvue-cli-3:build: [0m  Build at: 2022-06-30T13:21:09.997Z - Hash: e0f1019a798efdd7 - Time: 7113ms
+[35mvue-cli-3:build: [0m
+[35mvue-cli-3:build: [0m DONE  Build complete. The dist directory is ready to be deployed.
+[35mvue-cli-3:build: [0m INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html
+[35mvue-cli-3:build: [0m       

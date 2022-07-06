@@ -1,9 +1,33 @@
 {
+    "name": "ymjd",
+    "version": "1.0.0",
+    "scripts": {
+        "changeset": "changeset",
+        "build:deps": "bash ./rider/pre-deps.sh --force",
+        "push": "node ./scripts/bsno.js ./scripts/push.ts",
+        "vp": "pnpm version-packages",
+        "version-packages": "changeset version",
+        "release": "pnpm build:deps && pnpm release:only",
+        "release:only": "changeset publish",
+        "tbuild": "turbo run build --filter=ymjd-lib-common-one"
+    },
     "engines": {
         "node": ">=10",
         "pnpm": ">=3"
     },
+    "bin": {
+        "bsno": "./scripts/bsno.js"
+    },
     "devDependencies": {
-        "@changesets/cli": "^2.23.0"
+        "@changesets/cli": "^2.23.0",
+        "@manypkg/get-packages": "^1.1.3",
+        "@swc/core": "^1.2.155",
+        "@types/fs-extra": "^9.0.13",
+        "cross-spawn": "^7.0.3",
+        "execa": "^5.1.1",
+        "fs-extra": "^10.1.0",
+        "regenerator-runtime": "^0.13.9",
+        "swcr": "^1.1.8",
+        "turbo": "1.3.1"
     }
 }
