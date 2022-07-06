@@ -1,5 +1,15 @@
 # common-one
 
+## 6.0.0
+
+### Major Changes
+
+- 5fb92e6: 123123
+
+### Patch Changes
+
+- 5fb92e6: 123
+
 ## 5.0.0
 
 ### Major Changes
