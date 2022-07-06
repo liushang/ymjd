@@ -11,7 +11,6 @@
     "updateInternalDependents": "always"
   },
   "ignore": [
-    "next-app",
     "vue-cli-3",
     "vct-3",
     "vue-vite-3"
