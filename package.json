@@ -12,8 +12,7 @@
         "tbuild": "turbo run build --filter=ymjd-lib-common-one"
     },
     "engines": {
-        "node": ">=10",
-        "pnpm": ">=6"
+        "node": ">=10"
     },
     "bin": {
         "bsno": "./scripts/bsno.js"
