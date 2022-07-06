@@ -1,5 +1,11 @@
 # common-one
 
+## 6.0.2
+
+### Patch Changes
+
+- 2950b5b: +3
+
 ## 6.0.1
 
 ### Patch Changes
