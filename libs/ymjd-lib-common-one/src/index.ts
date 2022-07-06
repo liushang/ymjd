@@ -1,4 +1,4 @@
-console.log(123443)
+console.log(1234433)
 export default function addFunc (num1: any, num2: any) {
     return num1 + num2
 }
