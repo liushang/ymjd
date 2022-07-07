@@ -3,7 +3,7 @@ node_modules
 **/.idea
 .DS_Store
 .pnpm-debug.log
-.turbo
+.turbo/
 /test
 .swc
 .mfsu
