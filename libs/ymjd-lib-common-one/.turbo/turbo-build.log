@@ -1,13 +1,13 @@
-[35mymjd-lib-common-one:build: [0mcache hit, replaying output [2m4b40257b1d141807[0m
+[35mymjd-lib-common-one:build: [0mcache hit, replaying output [2m675a92640192a9af[0m
 [35mymjd-lib-common-one:build: [0m
 [35mymjd-lib-common-one:build: [0m> ymjd-lib-common-one@6.0.3 build /Users/lzy/Downloads/code/ymjd/libs/ymjd-lib-common-one
 [35mymjd-lib-common-one:build: [0m> run-p build:cjs build:es
 [35mymjd-lib-common-one:build: [0m
 [35mymjd-lib-common-one:build: [0m
-[35mymjd-lib-common-one:build: [0m> ymjd-lib-common-one@6.0.3 build:cjs /Users/lzy/Downloads/code/ymjd/libs/ymjd-lib-common-one
-[35mymjd-lib-common-one:build: [0m> rimraf dist && tsc
-[35mymjd-lib-common-one:build: [0m
-[35mymjd-lib-common-one:build: [0m
 [35mymjd-lib-common-one:build: [0m> ymjd-lib-common-one@6.0.3 build:es /Users/lzy/Downloads/code/ymjd/libs/ymjd-lib-common-one
 [35mymjd-lib-common-one:build: [0m> rimraf es && tsc --module esnext --outDir "./es"
+[35mymjd-lib-common-one:build: [0m
+[35mymjd-lib-common-one:build: [0m
+[35mymjd-lib-common-one:build: [0m> ymjd-lib-common-one@6.0.3 build:cjs /Users/lzy/Downloads/code/ymjd/libs/ymjd-lib-common-one
+[35mymjd-lib-common-one:build: [0m> rimraf dist && tsc
 [35mymjd-lib-common-one:build: [0m
