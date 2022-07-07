@@ -1,4 +1,4 @@
-[32mvue-cli-3:build[0m: cache hit, replaying output [2mdef3c7261012b853[0m
+[32mvue-cli-3:build[0m: cache hit, replaying output [2m0b52033e1fa99bec[0m
 [32mvue-cli-3:build: [0m
 [32mvue-cli-3:build: [0m> vue-cli-3@0.1.0 build /Users/lzy/Downloads/code/ymjd/project/vc-3
 [32mvue-cli-3:build: [0m> vue-cli-service build
@@ -8,7 +8,7 @@
 [32mvue-cli-3:build: [0m
 [32mvue-cli-3:build: [0m
 [32mvue-cli-3:build: [0m-  Building for production...
-[32mvue-cli-3:build: [0m WARNING  Compiled with 1 warning下午11:36:37
+[32mvue-cli-3:build: [0m WARNING  Compiled with 1 warning下午11:56:29
 [32mvue-cli-3:build: [0m
 [32mvue-cli-3:build: [0m
 [32mvue-cli-3:build: [0m/Users/lzy/Downloads/code/ymjd/project/vc-3/src/components/HelloWorld.vue
@@ -30,7 +30,7 @@
 [32mvue-cli-3:build: [0m  dist/css/app.ce333436.css            0.42 KiB           0.26 KiB
 [32mvue-cli-3:build: [0m
 [32mvue-cli-3:build: [0m  Images and other types of assets omitted.
-[32mvue-cli-3:build: [0m  Build at: 2022-07-07T15:36:37.165Z - Hash: e0f1019a798efdd7 - Time: 8365ms
+[32mvue-cli-3:build: [0m  Build at: 2022-07-07T15:56:29.589Z - Hash: e0f1019a798efdd7 - Time: 7630ms
 [32mvue-cli-3:build: [0m
 [32mvue-cli-3:build: [0m DONE  Build complete. The dist directory is ready to be deployed.
 [32mvue-cli-3:build: [0m INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html

@@ -26,5 +26,8 @@
           "build"
         ]
       }
+    },
+    "remoteCache": {
+      "signature": true
     }
 }
