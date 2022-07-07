@@ -12,6 +12,13 @@ jobs:
     name: Release
     runs-on: ubuntu-latest
     steps:
+      # - name: Creating .npmrc
+      #   run: |
+      #     cat << EOF > "$HOME/.npmrc"
+      #       //registry.npmjs.org/:_authToken=$NPM_TOKEN
+      #     EOF
+      #   env:
+      #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Checkout Repo
         uses: actions/checkout@v2
 
@@ -28,7 +35,7 @@ jobs:
         uses: changesets/action@v1
         with:
           # This expects you to have a script called release which does a build for your packages and calls changeset publish
-          publish: yarn release
+          # publish: yarn release:only
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
