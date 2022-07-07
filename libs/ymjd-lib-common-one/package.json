@@ -17,6 +17,10 @@
     "dist",
     "es"
   ],
+  "engines": {
+    "node": ">=10",
+    "pnpm": ">=6"
+},
   "devDependencies": {
     "@typescript-eslint/parser": "^5.4.0",
     "eslint": "^7.32.0",
