@@ -1,6 +1,0 @@
-[submodule "source/vue2"]
-	path = source/vue2
-	url = https://github.com.cnpmjs.org/vuejs/vue.git
-[submodule "source/core3"]
-	path = source/core3
-	url = https://github.com.cnpmjs.org/vuejs/core.git
